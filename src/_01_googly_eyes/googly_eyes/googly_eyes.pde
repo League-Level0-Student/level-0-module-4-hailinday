@@ -18,7 +18,7 @@ void draw() {
 
  
 // Left Eye
-  if (mouseX > 539.5 && mouseY > 266.5  && mouseX < 615.5 && mouseY < 343.5) {
+  if (mouseX > 539.5 && mouseY > 275  && mouseX < 610 && mouseY < 335) {
     fill(#111111);
     ellipse(mouseX, mouseY, 50, 50);    
     ellipse(mouseX + 125, mouseY, 50, 50);
@@ -34,7 +34,7 @@ void draw() {
   
   
   //right eye
-   if (mouseX < 615.5 && mouseY > 266.5  && mouseX > 738.5 && mouseY < 343.5) {
+   if (mouseX < 615.5 && mouseY > 275  && mouseX > 733 && mouseY < 335) {
     fill(#111111);
     ellipse(mouseX + 125, mouseY, 50, 50);    
     ellipse(mouseX - 125, mouseY, 50, 50);
@@ -43,7 +43,7 @@ void draw() {
      
   fill(#111111); 
   //Second eye
-  ellipse(580 + 125, 305, 50, 50);
+  //ellipse(580 + 125, 305, 50, 50);
     
   } 
 }
