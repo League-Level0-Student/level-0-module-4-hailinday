@@ -14,7 +14,7 @@ public class HappyPet {
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
 			//    (eg: cuddle, food, water, take a walk, groom, clean up poop).
 			//    Make sure to customize the title and question too.
-		for (int i = 0; i < ; i++) {
+			while(true) {
 			
 		
 		int task = JOptionPane.showOptionDialog(null, "How will you make your pet happy?", "Happy Pet", 0, JOptionPane.INFORMATION_MESSAGE, null,
